@@ -60,14 +60,6 @@
         <url>https://source.sakaiproject.org/svn/reset-pass/branches/reset-pass-2.9.x</url>
     </scm>
     
-	<distributionManagement>
-        <site>
-            <id>sakai-site</id>
-            <name>Sakai release Site</name>
-            <url>scpexe://source.sakaiproject.org/var/www/html/release/reset-pass/${project.version}</url>
-        </site>
-    </distributionManagement>
-    
     <dependencyManagement>
         <dependencies>
             <dependency>
