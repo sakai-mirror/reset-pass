@@ -132,10 +132,13 @@
 		</dependency>
 		<dependency>
 			<groupId>net.sf.ehcache</groupId>
-			<artifactId>ehcache</artifactId>
-         <!-- <version>${sakai.ehcache.version}</version> -->
+			<artifactId>ehcache-core</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>easymock</groupId>
 			<artifactId>easymock</artifactId>
